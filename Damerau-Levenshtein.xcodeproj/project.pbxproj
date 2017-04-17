@@ -26,6 +26,9 @@
 		8DD76F9A0486AA7600D96B5E /* Damerau-Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Damerau-Levenshtein.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* Damerau-Levenshtein.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* Damerau-Levenshtein.1 */; };
+		C513C1BB1EA54C4400A59E7C /* JXTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A188612E22FF1009E3F9B /* JXTrie.m */; };
+		C513C1BC1EA54C4600A59E7C /* JXTrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A188812E22FF1009E3F9B /* JXTrieNode.m */; };
+		C513C1BD1EA54C4800A59E7C /* JXTrieResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A18FB12E25B8D009E3F9B /* JXTrieResult.m */; };
 		C53726D41EA1C3740067AFAC /* DamerauLevenshteinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53726D31EA1C3740067AFAC /* DamerauLevenshteinTests.m */; };
 		C53726D61EA1C3740067AFAC /* libDamerauLevenshtein.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8615AB14CFDC530054C0BD /* libDamerauLevenshtein.a */; };
 		C53726DC1EA1C4970067AFAC /* Lorem1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D05EECC14803A2800782B4D /* Lorem1.txt */; };
@@ -395,6 +398,9 @@
 			files = (
 				1B8615D414CFDC990054C0BD /* JXLDStringDistanceUtilities.m in Sources */,
 				1B8615D614CFDCA20054C0BD /* NSString+DamerauLevenshtein.m in Sources */,
+				C513C1BB1EA54C4400A59E7C /* JXTrie.m in Sources */,
+				C513C1BC1EA54C4600A59E7C /* JXTrieNode.m in Sources */,
+				C513C1BD1EA54C4800A59E7C /* JXTrieResult.m in Sources */,
 				3DD68F9E155448A30068B4D6 /* JXLDStringTokenUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +736,7 @@
 				C53726DB1EA1C3740067AFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
