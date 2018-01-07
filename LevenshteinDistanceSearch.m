@@ -6,7 +6,7 @@
 #define TARGET	@"goober"
 #define MAX_COST	1
 
-// Apparently, recreating the trie from the raw word list is faster than archiving/unarchiving using NSKeyedArchiver. 
+// Apparently, recreating the tree from the raw word list is faster than archiving/unarchiving using NSKeyedArchiver. 
 
 int main (int argc, const char * argv[]) {
 	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
